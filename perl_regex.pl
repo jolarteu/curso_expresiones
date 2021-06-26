@@ -17,22 +17,24 @@ while(<$f>) {
   chomp;
   #if(m/^\d{4,4}\-02.*$/){
 
-if(m/^([\d]{4,4})\-.*?,(.*?),(.*?),(\d+),(\d+),.*$/)
+if(m/^([\d]{4,4})\-.*,(.*?),(.*?),(\d+),(\d+),.*$/)
 {
     $match++;
-
-  if($3 < $4)
+   if($4 < $5)
   {
-    print $_."\n";
+  printf("$1:  $2 ($4) - ($5) $3\n");
 
   }
   }
 
   else {
+
+
     $nomatch ++;
   }
 }
 
 close ($f);
 
+printf("se calculo en %d segundos;\n", time()-$t);
 print("se encontraron $match matches y $nomatch no matches \n");
