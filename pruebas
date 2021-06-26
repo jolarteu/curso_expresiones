@@ -1,0 +1,154 @@
+1
+12
+123
+1234
+12345
+12345678910
+12345678910as+
+1345324345464654m45464684
+77777777784392093843
+S
+S
+F
+G
+
+numeros telefonicos:
+
+444555666
+555658
+56-58-11
+56.58.11
+56.78-98
+65 09 87
+76y87r98
+45y78-56
+78.87 65
+78 54-56
++521565811
+58-11-11#246
+55-5632-0417
+556048p123
+556048e123
+^(\+?\d{2,3}[^\da-z]?){3}[#pe]?\d*$ (final numeros)
+^\+?\d{2,2}[\D][#pe]?\d*$
+^\+?\d{2,2}[^\da-z]?$
+holiiiii Platzi
+
+
+url: https://www.instagram.com/p/BXB4zsUlW5Z/?taken-by=beco.mx
+url: http://instagram.com/p/blablablah
+url: http://itam.mx/test
+http://instagram.com/p/blablablah
+https://www.google.com.co/
+https://cdn-microsoft.org/image/seixo2t9sjl_22.jpg
+https://sub.dominio.de.alguien.com/archivo.html
+https://en.wikipedia.org/wiki/.org
+http://localhost:3000/getUsers?userId=12354411
+https://hola.pizza Archivo
+
+https?:\/\/[\w]+\/?\S*
+
+csv1,csv2,csv3
+111,111,111
+212,413,123
+141,663,896,12
+
+4544-
+5464++
+
+Rodrigo Jiménez Gutiérrez
+A
+
+S
+555658
+56-58-11
+56.58.11
+75j54h86
+
+7582345666
+
+45.54.55.21
+abc
+302-345-9876
+esto.es_un.mail+gmail@mail.com
+dominio.com
+
+64.242.88.10 - - [07/Mar/2004:17:50:44 -0800] "GET /twiki/bin/view/TWiki/SvenDowideit HTTP/1.1" 200 3616
+64.242.88.10 - - [07/Mar/2004:17:53:45 -0800] "GET /twiki/bin/search/Main/SearchResult?scope=text®ex=on&search=Office%20*Locations[^A-Za-z] HTTP/1.1" 200 7771
+242.242.88.10 - - [07/Mar/2004:17:53:45 -0800] "GET /twiki/bin/search/Main/SearchResult?scope=text®ex=on&search=Office%20*Locations[^A-Za-z] HTTP/1.1" 200 7771
+
+[Sun Mar 7 16:02:00 2004] [notice] Apache/1.3.29 (Unix) configured -- resuming normal operations
+[Sun Mar 7 16:02:00 2004] [info] Server built: Feb 27 2004 13:56:37
+
+
+[LOG ENTRY] [ERROR] The system is unstable
+[LOG ENTRY] [WARN] The system may be down
+[LOG ENTRY] [LOG] Everything is OK
+[LOG ENTRY] [LOG] [user:@beco] Logged in
+[LOG ENTRY] [LOG] [user:@hotmail] Logged in
+[LOG ENTRY] [LOG] [user:@beco] Clicked here
+[LOG ENTRY] [LOG] [user:@beco] Rated the app
+[LOG ENTRY] [LOG] [user:@beco] Logged out
+
+
+
+esto.es_un.mail@mail.com
+esto.es_un.mail+complejo@mail.com.mx
+dominio.com
+
+holiiii@yahoo.com.mx
+ruben@starbucks.com
+esto_no$es_email@dominio.com
+no_se_de_internet3@hotmail.com
+
+
+## patrones:
+
+ dominio:
+
+ ^([\w\.]{5,30}\+?[\w\.]{0,10}@[\w\.\-]+\.\w+(^\s)*)$
+ @[\w\.\-]+\.\w+(^\s)*
+
+
+-99.205646,19.429707,2275.10
+-99.205581,19.429652,2275.10
+-99.204654, 19.428952,2275.58
+
+coordenadas 1:
+
+-?\d{1,3}\.\d{1,6},\s?\-?\d{1,3}\.\d{1,6}.*
+\-?\d{1,3}\.\d{1,6},\s?\-?\d{1,3}\.\d{1,6},.*
+
+-99 12' 34.08"W, 19 34' 56.98"N
+-34 54' 32.00"E, -3 21' 67.00"S
+
+
+coordenadas 2:
+
+^(-?\d{1,3}\s\d{1,3}'\s\d{1,3}\.\d{1,3}"[#WENS],?\s?){2,2}$
+
+^-?\d{1,3}\s\d{1,3}'\s\d{1,3}\.\d{1,3}"[#WE],?\s-?\d{1,3}\s\d{1,3}'\s\d{1,3}\.\d{1,3}"[#NS],?$
+
+
+Nombres:
+
+Camilo Sarmiento Gálvez
+Alejandro Pliego Abasto
+Milagros Reyes Japón
+Samuel París Arrabal
+Juan Pablo Tafalla
+Axel Gálvez Velázquez
+Óscar Montreal Aparicio
+Jacobo Pozo Tassis
+Guillermo Ordóñez Espiga
+Eduardo Curbelo
+
+
+^([A-ZÀ-ú][a-zÀ-ú]+\s){1,3}[A-ZÀ-ú][a-zÀ-ú]+$
+
+
+
+
+Link:
+
+https://b3co.com/?s=fotografia&mode=search&module=blog

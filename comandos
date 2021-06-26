@@ -1,0 +1,13 @@
+\w - caracteres de palabras
+\d - digitos
+\s - espacione en blanco
+[0-9] - \d
+[0-9a-zA-Z] - \w
+* 0 o muchos (ve por todo, pueden no haber o haber muchos y si hay tomara todos los caracteres en la cadena)
++ 1 o más (tiene que existir si o si almenos un caracter, no tamara cadenas vacias y si si hay tomara todos los caracteres de la cadena)
+? 0 o 1 (puede no haber ningun caracter, pero si hay solo tomara uno)
+
+
+Peliculas:
+
+^\d+::([-\'\.\[\],"\w\s\(\)\d]+)\s\((\d\d\d\d)\)::.*$
