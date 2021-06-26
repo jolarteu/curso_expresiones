@@ -7,23 +7,28 @@ $nomatch = 0;
 while(!feof($file)) {
 
     $line=fgets($file);
-    echo $line ;
+  #  echo $line ;
+
+    if(preg_match(
+
+        '/^2018\-01\-(\d\d),.*$/',
+        $line,
+        $m
+      )                           // if(preg_match(
+                                  //   EXPRESION,
+                                  //    $line,
+                                  //    $m
+                                  //
+                                  //   )
+      )
+      {
+        print_r($m);
+        $match++;
+      }
+      else {
+        $nomatch++;
+      }
 }
 
 fclose($file);
-//     $line = fgets($file);
-//     if(preg_match(
-//         '/^2018\-01\-(\d\d),.*$/',
-//         $line,
-//         $m
-//       )
-//     ) {
-//         print_r($m);
-//         $match++;
-//     } else {
-//         $nomatch++;
-//     }
-// }
-// fclose($file);
-//
-// printf("\n\nmatch: %d\nnomatch: %d\n", $match, $nomatch);
+printf("\n %d match y %d no match\n", $match, $nomatch);
