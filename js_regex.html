@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <meta charset="UTF-8">
+<title>JS + Regex</title>
+<script>
+  function validate(str) {
+  if(str.match(/^\w{3,10}@[\w\.]{3,10}\.\w{2,5}$/i)) {
+  document.getElementById("boton").disabled = false;
+  document.getElementById("boton").style.backgroundColor = "Green";
+  }
+  else {
+  document.getElementById("boton").disabled = true;
+  document.getElementById("boton").style.backgroundColor = "Red";
+  }
+  console.log(str);
+  }
+</script>
+</head>
+<body>
+  <input type="text" name="email"
+  onkeyup="validate(this.value)" id="in">
+  <input type="button" value="enviar" disabled id="boton" onclick="alert('correo valido')">
+</body>
+</html>
